@@ -98,7 +98,7 @@ You will also need to add a route to this method, or else the page will remain u
 
 <ruby>
 Refinery::Core::Engine.routes.prepend do
-  get '/pages/about-us', :to => 'pages#about_us', :as => :about_us
+  get '/about-us', :to => 'pages#about_us', :as => :about_us
 end
 
 # Your route file resumes here
