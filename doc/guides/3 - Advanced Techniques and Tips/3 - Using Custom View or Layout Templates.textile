@@ -31,7 +31,7 @@ Open +config/initializers/refinery/pages.rb+.
 
 h4. Create Template
 
-Create +app/views/refinery/pages/<my_view>.html.erb+, where +<my_view>+ is the name of the file you whitelisted.
+Create +app/views/refinery/pages/about_us.html.erb+, where +about_us+ is the name of the file you whitelisted.
 
 * Inside of this file, you can either +<%= render '/refinery/content_page' %>+, or you can use +@page.content_for?(:body)+ to output the content of a specific page part.
 
