@@ -65,7 +65,7 @@ Refinery::PagesController.class_eval do
 end
 </ruby>
 
-You can also entirely override the +show+ method inside this decorator, too, if need be. You can view the existing method "here for reference":https://github.com/resolve/refinerycms/blob/master/pages/app/controllers/refinery/pages_controller.rb#L23-39.
+You can also entirely override the +show+ method inside this decorator, too, if need be. You can "view the existing method here":https://github.com/resolve/refinerycms/blob/master/pages/app/controllers/refinery/pages_controller.rb#L23-39 for reference.
 
 This method has the advantage of constraining the find to occur only on pages that are not the home page (and not, for example, on any engine pages). There are two major downsides, though: 
 
